@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    color: #FFF2E7;;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+   
+    font-family: 'Sarala', sans-serif;
+   
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px;
+
+    border-bottom:  solid 0.4px #FFF2E7;
+}
+.R_card{
+    display: flex;
+    gap: 32px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+}
+a{
+    color: #FFF2E7;
+    
+}
+a:hover{
+  color:#dcb291;;  
+}
+main{
+    margin-bottom: 48px;
+}
+
+.bot{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.balle_add{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.balle_add h1{
+    font-family: 'Righteous', cursive;
+    font-size: 64px;
+    font-weight: 400;
+}
+.balle_add h3{
+    color: #ECD6C4;
+    font-weight: 400;
+    font-size: 24px;
+}
+.balle_add button{
+    width: 140px;
+    height: 55px;
+    border-radius: 20px;
+
+    background: #ECD6C4;
+
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+.balle_add button:hover{
+    background: #dcb291;
+    cursor: pointer;
+}
+.info_bot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+    margin-top: 25px;
+    
+}
+.info_bot h3{
+    border-top: solid 0.4px #FFF2E7;
+    padding-top: 50px;
+    font-family: 'Righteous', cursive;
+}
+.info_bot h4{
+    font-size: 18px;
+    color: #ECD6C4;;
+}
+
+footer{
+    padding: 32px;
+
+    border-top: solid 0.4px #FFF2E7;
+}
+footer img{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
